@@ -14,3 +14,6 @@ instances = ec2.create_instances(
 
 print("EC2 Instance Created!")
 print("Instance ID:", instances[0].id)
+
+
+linux
