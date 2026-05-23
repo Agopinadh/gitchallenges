@@ -8,7 +8,7 @@ instances = ec2.create_instances(
     ImageId='ami-0f5ee92e2d63afc18',  # Example Amazon Linux AMI
     MinCount=1,
     MaxCount=1,
-    InstanceType='t2.micro',
+    InstanceType='t2.micro',-windows
     KeyName='your-keypair-name'
 )
 
